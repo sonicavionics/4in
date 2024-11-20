@@ -135,7 +135,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document6]
-DocumentPath=..\libraries\rp2040\rp2040.IntLib
+DocumentPath=Schlib1.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -149,10 +149,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=MFWJJYCT
 
 [Document7]
-DocumentPath=..\libraries\IRLML6344TRPBF.IntLib
+DocumentPath=PcbLib1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -166,7 +166,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=AOMYVSBT
 
 [Configuration1]
 Name=Sources
