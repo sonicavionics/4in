@@ -67,7 +67,7 @@ OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=1
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
-Configuration3_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ExportFoldedBoard=True|ExportFoldedBoardRate=0|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=C:\Users\zeul\Documents\docum\dingboard\dingboard_altium\PCB1.PcbDoc
+Configuration3_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=1|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ExportFoldedBoard=False|ExportFoldedBoardRate=0|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=True|IncludeCoverLayer=True|SkipFreeBodies=True|SkipHidden=True|DocumentPath=C:\Users\zeul\Documents\docum\dingboard\dingboard_altium\PCB1.PcbDoc
 OutputType4=Pick Place
 OutputName4=Generates pick and place files
 OutputCategory4=Assembly
