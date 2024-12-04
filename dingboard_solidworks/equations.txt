@@ -4,3 +4,12 @@
 
 "hole"= 6mm
 
+"hole_y_space" = 75mm
+
+"hole_x_space" = 28mm
+
+"back_plate_width" = 69mm
+
+"back_plate_height" = 114mm
+
+"card_spacing" = 20mm
