@@ -1,0 +1,2 @@
+﻿"allrockets_tube_ID" = 3.9in
+"allrockets_tube_OD"= 4.024in
