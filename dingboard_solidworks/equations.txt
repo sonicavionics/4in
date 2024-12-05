@@ -2,17 +2,18 @@
 
 "allrockets_tube_OD"= 4.024in
 
-"hole"= 6mm
+"hole"= 6.35mm
 
 "hole_y_space"= 75mm
 
 "hole_x_space"= 28mm
 
-"back_plate_width"= 69mm
-
-"back_plate_height"= 114mm
+"back_plate_width"= 50mm
 
 "card_spacing"= 20mm
 
 "card_number"= 5
 
+"ToDi" = 0.05mm
+
+"card_width" = 81mm
