@@ -4,17 +4,18 @@
 
 "hole"= 6.35mm
 
-"back_plate_width"= 26mm
+"back_plate_width"= 28mm
 
 "card_spacing"= 20mm
 
-"card_number"= 4
+"card_number"= 5
 
 "ToDi"= 0.05mm
 
-"card_diameter"= 78mm
+"card_diameter"= 84mm
 
-"overlap"= 3mm
+"overlap"= 7mm
 
-"card_length"= 69.21mm
+"card_length"= 69mm
 
+"pcie_space" = 6.27mm
