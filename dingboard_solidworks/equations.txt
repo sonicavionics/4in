@@ -4,16 +4,17 @@
 
 "hole"= 6.35mm
 
-"hole_y_space"= 75mm
-
-"hole_x_space"= 28mm
-
-"back_plate_width"= 50mm
+"back_plate_width"= 26mm
 
 "card_spacing"= 20mm
 
-"card_number"= 5
+"card_number"= 4
 
-"ToDi" = 0.05mm
+"ToDi"= 0.05mm
 
-"card_width" = 81mm
+"card_diameter"= 78mm
+
+"overlap"= 3mm
+
+"card_length"= 69.21mm
+
