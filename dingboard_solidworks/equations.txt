@@ -27,3 +27,5 @@
 "b_h_y" = 12.72mm
 
 "b_h_x" = 37mm
+
+"rack_front_width" = 11.63mm
