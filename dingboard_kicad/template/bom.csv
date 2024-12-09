@@ -1,0 +1,4 @@
+"Value","Reference","Footprint","LCSC","jlc link","basic?","price","Qty"
+"Bus_PCI_Express_x1","J1","Connector_PCBEdge:BUS_PCIexpress_x1","n/a","n/a","n/a","n/a","1"
+"RP2040","U1","Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm","C2040","https://jlcpcb.com/parts/componentSearch?searchTxt=rp2040","no"," C$1.4192 ","1"
+"BNO055","U2","Package_LGA:LGA-28_5.2x3.8mm_P0.5mm","C93216","https://jlcpcb.com/partdetail/BoschSensortec-BNO055/C93216","no","C$14.06","1"
