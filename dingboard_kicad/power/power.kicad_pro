@@ -482,7 +482,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../dingboard_solidworks/reference_pcb.step",
       "svg": "",
       "vrml": ""
     },
