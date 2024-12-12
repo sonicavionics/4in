@@ -753,6 +753,7 @@
 		(start 162.116585 64.587705)
 		(mid 177.157159 77.991829)
 		(end 182.743305 97.348595)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -763,6 +764,7 @@
 	(gr_line
 		(start 115.32661 122.418595)
 		(end 115.32661 110.581404)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -774,6 +776,7 @@
 		(start 162.116585 64.587705)
 		(mid 160.874576 63.480844)
 		(end 160.413305 61.882429)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -785,6 +788,7 @@
 		(pts
 			(xy 115.32661 110.581404) (xy 115.32661 105.83727) (xy 110.083305 102.092729) (xy 110.083305 97.348595)
 		)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -795,6 +799,7 @@
 	(gr_line
 		(start 177.5 122.418595)
 		(end 177.5 110.581404)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -805,6 +810,7 @@
 	(gr_circle
 		(center 183.413305 110.068595)
 		(end 186.763305 110.068595)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -817,6 +823,7 @@
 		(start 110.083305 97.348595)
 		(mid 115.669451 77.99183)
 		(end 130.710025 64.587705)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -828,6 +835,7 @@
 		(start 132.413305 61.882429)
 		(mid 131.952008 63.480827)
 		(end 130.710025 64.587705)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -838,6 +846,7 @@
 	(gr_line
 		(start 160.413305 61.882429)
 		(end 160.413305 55.688595)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -848,6 +857,7 @@
 	(gr_line
 		(start 132.413305 55.688595)
 		(end 132.413305 61.882429)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -858,6 +868,7 @@
 	(gr_circle
 		(center 109.413305 110.068595)
 		(end 112.763305 110.068595)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -869,6 +880,7 @@
 	(gr_line
 		(start 115.32661 122.418595)
 		(end 103.69661 122.418595)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -879,6 +891,7 @@
 	(gr_circle
 		(center 171.113305 63.648595)
 		(end 174.463305 63.648595)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -890,6 +903,7 @@
 	(gr_circle
 		(center 103.356783 88.188785)
 		(end 106.706783 88.188785)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -901,6 +915,7 @@
 	(gr_circle
 		(center 189.469827 88.188785)
 		(end 192.819827 88.188785)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -912,6 +927,7 @@
 	(gr_line
 		(start 177.5 122.418595)
 		(end 189.13 122.418595)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -923,6 +939,7 @@
 		(start 103.69661 122.418595)
 		(mid 146.413305 47.818595)
 		(end 189.13 122.418595)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -933,6 +950,7 @@
 	(gr_line
 		(start 132.413305 55.688595)
 		(end 160.413305 55.688595)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -944,6 +962,7 @@
 		(pts
 			(xy 177.5 110.581404) (xy 177.5 105.83727) (xy 182.743305 102.092729) (xy 182.743305 97.348595)
 		)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -954,6 +973,7 @@
 	(gr_circle
 		(center 121.713305 63.648595)
 		(end 125.063305 63.648595)
+		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
