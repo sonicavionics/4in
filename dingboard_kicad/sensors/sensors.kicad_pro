@@ -543,8 +543,14 @@
         },
         {
           "group_by": false,
-          "label": "link",
-          "name": "link",
+          "label": "JLC Link",
+          "name": "JLC Link",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Digikey Link",
+          "name": "Digikey Link",
           "show": true
         },
         {
