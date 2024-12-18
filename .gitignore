@@ -1,4 +1,39 @@
+# -------------------------------------------------------------------
+# Altium Project: Ignore common generated and backup files
+# -------------------------------------------------------------------
+
 dingboard_altium/__Previews/
 dingboard_altium/History
 dingboard_altium/Project Outputs *
 dingboard_altium/* Logs*
+
+
+
+# -------------------------------------------------------------------
+# KiCad Project: Ignore common generated and backup files
+# -------------------------------------------------------------------
+
+# KiCad cache and rescue files
+*-cache.lib
+*-rescue.lib
+*-rescue.dcm
+fp-info-cache
+
+# KiCad backup and autosave files
+*.bak
+*.bck
+*-backup*
+*-autosave-*
+*-sheet.backup
+*.sch-bak
+
+# Generated netlists (if you don't want them in VCS)
+*.net
+
+# OS-specific files
+.DS_Store
+
+# Editor temporary files
+*~
+*.swp
+*.swo
