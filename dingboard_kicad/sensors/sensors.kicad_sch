@@ -9818,6 +9818,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 80.01) (xy 198.12 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e36d68f-b830-4b4a-b08b-c79f75eb1414")
+	)
+	(wire
+		(pts
 			(xy 474.98 261.62) (xy 474.98 278.13)
 		)
 		(stroke
@@ -11201,7 +11211,7 @@
 	)
 	(text "Power Mux"
 		(exclude_from_sim no)
-		(at 201.676 41.402 0)
+		(at 199.898 43.18 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -12818,6 +12828,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/AbraconLlc-ABM8_272T3/C20625731"
+			(at 180.34 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "max mA" "200 uW 3.3v"
 			(at 180.34 245.11 0)
 			(effects
 				(font
@@ -15691,6 +15710,15 @@
 				(hide yes)
 			)
 		)
+		(property "max mA" "12.3mA"
+			(at 509.27 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "17"
 			(uuid "97a115b7-4860-40e4-b9d7-5e30eaa24886")
 		)
@@ -16157,7 +16185,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 80.01 0)
+		(at 196.85 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16166,7 +16194,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bc1ebd5-0197-4623-a5f2-c9d8001a0185")
 		(property "Reference" "#PWR030"
-			(at 198.12 86.36 0)
+			(at 190.5 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16175,7 +16203,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 85.09 0)
+			(at 191.77 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16184,7 +16212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 80.01 0)
+			(at 196.85 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16193,7 +16221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 80.01 0)
+			(at 196.85 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16202,7 +16230,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 80.01 0)
+			(at 196.85 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16616,6 +16644,15 @@
 				(hide yes)
 			)
 		)
+		(property "max mA" "500 uA"
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2_1"
 			(uuid "075bb87d-bb75-420d-abab-7b50f09e2015")
 		)
@@ -16745,7 +16782,7 @@
 				(hide yes)
 			)
 		)
-		(property "info" "DC-DC Converter"
+		(property "info" "3.3v Buck"
 			(at 347.726 63.754 0)
 			(effects
 				(font
@@ -16773,6 +16810,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/TexasInstruments-LMR51430YFDDCR/C5219261"
+			(at 347.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "max mA" "65uA"
 			(at 347.98 69.85 0)
 			(effects
 				(font
@@ -17294,6 +17340,15 @@
 			)
 		)
 		(property "price" "C$0.0829"
+			(at 430.53 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "max mA" "200 uW 3.3v"
 			(at 430.53 346.71 0)
 			(effects
 				(font
@@ -18847,6 +18902,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/WinbondElec-W25Q128JVPIQ/C190862"
+			(at 135.89 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "max mA" "25mA"
 			(at 135.89 175.26 0)
 			(effects
 				(font
@@ -20836,6 +20900,15 @@
 				(hide yes)
 			)
 		)
+		(property "max mA" "20mA"
+			(at 350.52 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "16"
 			(uuid "8fab3acd-c60a-4eb8-bf41-3f1939e5734a")
 		)
@@ -21484,6 +21557,15 @@
 			)
 		)
 		(property "price" "C$2.9424 "
+			(at 346.71 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "max mA" "Con=10mA, Tra=70mA"
 			(at 346.71 330.2 0)
 			(effects
 				(font
@@ -22305,6 +22387,15 @@
 			)
 		)
 		(property "price" "C$0.6839 "
+			(at 537.21 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "max mA" "0.5 uW 3.3v"
 			(at 537.21 274.32 0)
 			(effects
 				(font
@@ -23296,6 +23387,15 @@
 			)
 		)
 		(property "price" "C$0.7918"
+			(at 213.36 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "max mA" "103uA"
 			(at 213.36 340.36 0)
 			(effects
 				(font
@@ -25860,7 +25960,7 @@
 				(hide yes)
 			)
 		)
-		(property "info" "BMP288"
+		(property "info" "BMP388"
 			(at 494.03 71.12 0)
 			(effects
 				(font
@@ -25888,6 +25988,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/BoschSensortec-BMP388/C779278"
+			(at 494.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "max mA" "800uA"
 			(at 494.03 71.12 0)
 			(effects
 				(font
