@@ -9278,7 +9278,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 77.47) (xy 388.62 77.47)
+			(xy 359.41 77.47) (xy 388.62 77.47)
 		)
 		(stroke
 			(width 0)
@@ -10098,6 +10098,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 72.39) (xy 358.14 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec0553d-9b98-452d-8f8e-86b9dd551f0f")
+	)
+	(wire
+		(pts
 			(xy 369.57 168.91) (xy 369.57 167.64)
 		)
 		(stroke
@@ -10888,7 +10898,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 77.47) (xy 358.14 72.39)
+			(xy 359.41 77.47) (xy 359.41 72.39)
 		)
 		(stroke
 			(width 0)
@@ -19896,7 +19906,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "8b83029f-adc0-474e-b768-f4b2925c4d7a")
 		(property "Reference" "R62"
 			(at 389.89 79.756 0)
@@ -19907,7 +19917,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22.1k"
+		(property "Value" "22k"
 			(at 390.144 81.534 0)
 			(effects
 				(font
@@ -19961,7 +19971,7 @@
 				(hide yes)
 			)
 		)
-		(property "info" "22.1k ohm"
+		(property "info" "22k ohm"
 			(at 388.62 81.28 0)
 			(effects
 				(font
@@ -24591,7 +24601,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "d80fd9f2-dc28-477a-91bb-b048cdcf9652")
 		(property "Reference" "R36"
 			(at 198.12 97.536 0)
@@ -24602,7 +24612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "51.1k"
+		(property "Value" "75k"
 			(at 198.374 99.314 0)
 			(effects
 				(font
@@ -24638,7 +24648,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23072"
+		(property "LCSC Part #" "C23242"
 			(at 196.85 99.06 0)
 			(effects
 				(font
@@ -24647,7 +24657,7 @@
 				(hide yes)
 			)
 		)
-		(property "basic?" "no"
+		(property "basic?" "yes"
 			(at 196.85 99.06 0)
 			(effects
 				(font
@@ -24656,7 +24666,7 @@
 				(hide yes)
 			)
 		)
-		(property "info" "51.1k ohm"
+		(property "info" "75k ohm"
 			(at 196.85 99.06 0)
 			(effects
 				(font
@@ -24665,7 +24675,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" "$0.16"
+		(property "price" " C$0.0013 "
 			(at 196.85 99.06 0)
 			(effects
 				(font
@@ -24674,7 +24684,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0751K1L/727284"
+		(property "Digikey Link" ""
+			(at 196.85 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/23969-0603WAF7502T5E/C23242"
 			(at 196.85 99.06 0)
 			(effects
 				(font
