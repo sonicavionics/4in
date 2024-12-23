@@ -11155,7 +11155,7 @@
 	)
 	(text "IMU"
 		(exclude_from_sim no)
-		(at 506.222 315.468 0)
+		(at 507.492 245.618 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -11265,7 +11265,7 @@
 	)
 	(text "CAN Controller/Tranceiver"
 		(exclude_from_sim no)
-		(at 347.98 381 0)
+		(at 348.742 313.69 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -12724,6 +12724,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 502.92 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4bf0a1d2-42ea-4b75-b107-5bc78cc45d54")
 		)
@@ -12846,7 +12855,16 @@
 				(hide yes)
 			)
 		)
-		(property "max mA" "200 uW 3.3v"
+		(property "Current Draw" "200 uW 3.3v"
+			(at 180.34 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 180.34 245.11 0)
 			(effects
 				(font
@@ -12984,6 +13002,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 267.97 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "323f048d-ed5b-45a1-99f6-661a10fcfad5")
 		)
@@ -13099,6 +13126,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
+			(at 381 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 381 157.48 0)
 			(effects
 				(font
@@ -13428,6 +13464,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 403.86 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2cce9a1-5625-4504-8604-30b51810f46f")
 		)
@@ -13551,6 +13596,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 166.37 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7898d533-5adf-4744-9441-fab63f061c4c")
 		)
@@ -13657,6 +13711,15 @@
 			)
 		)
 		(property "price" "C$0.0013 "
+			(at 471.17 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 471.17 288.29 0)
 			(effects
 				(font
@@ -13854,6 +13917,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 417.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c11252c8-7a2f-439b-bc52-05f8c5a8db69")
 		)
@@ -14021,7 +14093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 330.2 360.6799 0)
 			(effects
 				(font
@@ -14030,7 +14102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 327.3552 363.22 0)
 			(effects
 				(font
@@ -14049,6 +14121,60 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 326.39 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
+			(at 326.39 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "info" "100nF Cap"
+			(at 326.39 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
+			(at 326.39 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C307331"
+			(at 326.39 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "basic?" "yes"
+			(at 326.39 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "C$0.0077 "
 			(at 326.39 359.41 0)
 			(effects
 				(font
@@ -14313,6 +14439,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 318.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c2550e4-b065-4d96-8317-05259c0f85ce")
 		)
@@ -14504,6 +14639,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 396.24 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "154ba229-d03a-4519-aef6-e23511e2600a")
 		)
@@ -14619,6 +14763,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
+			(at 415.29 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 415.29 157.48 0)
 			(effects
 				(font
@@ -15144,6 +15297,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 171.45 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7dbac7ad-8ceb-4918-9117-bee51907912a")
 		)
@@ -15257,6 +15419,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/25933-0603WAF270JT5E/C25190"
+			(at 306.07 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 306.07 205.74 0)
 			(effects
 				(font
@@ -15455,6 +15626,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 330.2 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eca492a7-0737-4998-a7fe-ae593756f743")
 		)
@@ -15570,6 +15750,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446"
+			(at 232.41 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 232.41 339.09 0)
 			(effects
 				(font
@@ -15720,7 +15909,16 @@
 				(hide yes)
 			)
 		)
-		(property "max mA" "12.3mA"
+		(property "Current Draw" "12.3mA"
+			(at 509.27 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 509.27 280.67 0)
 			(effects
 				(font
@@ -15989,6 +16187,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 331.47 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5f7f0519-c086-427c-8195-429309b97867")
 		)
@@ -16170,6 +16377,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+			(at 369.57 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 369.57 172.72 0)
 			(effects
 				(font
@@ -16654,7 +16870,16 @@
 				(hide yes)
 			)
 		)
-		(property "max mA" "500 uA"
+		(property "Current Draw" "500 uA"
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 210.82 72.39 0)
 			(effects
 				(font
@@ -16828,7 +17053,16 @@
 				(hide yes)
 			)
 		)
-		(property "max mA" "65uA"
+		(property "Current Draw" "65uA"
+			(at 347.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 347.98 69.85 0)
 			(effects
 				(font
@@ -16882,7 +17116,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "6.8u"
 			(at 379.73 67.31 90)
 			(effects
 				(font
@@ -16890,7 +17124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" ""
 			(at 379.73 69.85 0)
 			(effects
 				(font
@@ -16917,7 +17151,61 @@
 				(hide yes)
 			)
 		)
-		(property "info" "2.2uH"
+		(property "info" "6.8uH"
+			(at 379.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/tdk-corporation/VLS6045EX-6R8M/5287380"
+			(at 379.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/Tdk-VLS6045EX6R8M/C415364"
+			(at 379.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C415364"
+			(at 379.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "basic?" "no"
+			(at 379.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "C$0.1397"
+			(at 379.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" "VLS6045EX-6R8M"
 			(at 379.73 69.85 0)
 			(effects
 				(font
@@ -17358,7 +17646,16 @@
 				(hide yes)
 			)
 		)
-		(property "max mA" "200 uW 3.3v"
+		(property "Current Draw" "200 uW 3.3v"
+			(at 430.53 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 430.53 346.71 0)
 			(effects
 				(font
@@ -17745,6 +18042,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 68.58 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A13"
 			(uuid "fb01efa0-540e-4e1f-9bbf-3f6e41eccdbb")
 		)
@@ -18101,6 +18407,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 153.67 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f32d7f8-31e7-46cf-a5bf-8816dda4f07a")
 		)
@@ -18216,6 +18531,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
+			(at 532.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 532.13 62.23 0)
 			(effects
 				(font
@@ -18345,6 +18669,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 86.36 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f59a2291-fb43-456b-a381-da6b1da1177c")
 		)
@@ -18449,6 +18782,15 @@
 			)
 		)
 		(property "price" "C$0.0013 "
+			(at 546.1 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 546.1 264.16 0)
 			(effects
 				(font
@@ -18715,6 +19057,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "549941d2-1822-4ff2-a1c2-74801452bf51")
 		)
@@ -18920,7 +19271,16 @@
 				(hide yes)
 			)
 		)
-		(property "max mA" "25mA"
+		(property "Current Draw" "25mA"
+			(at 135.89 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 135.89 175.26 0)
 			(effects
 				(font
@@ -19062,6 +19422,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/26484-0402WGF1003TCE/C25741"
+			(at 388.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 388.62 73.66 0)
 			(effects
 				(font
@@ -19258,6 +19627,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 142.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2735316a-99c9-4e06-b643-4c9916829f9c")
 		)
@@ -19363,6 +19741,15 @@
 			)
 		)
 		(property "price" "C$0.0007"
+			(at 246.38 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 246.38 330.2 0)
 			(effects
 				(font
@@ -19561,6 +19948,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 181.61 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4eb93bc2-84ca-4ec1-9acf-c3a58a5fb4e6")
 		)
@@ -19648,7 +20044,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "859d1dcc-cb9a-4646-af65-0d33d05b501d")
 		(property "Reference" "L70"
 			(at 188.722 348.742 0)
@@ -19668,7 +20064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" ""
 			(at 193.04 350.52 0)
 			(effects
 				(font
@@ -19687,6 +20083,69 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 193.04 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" "XFL4020-152MEC"
+			(at 193.04 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/Coilcraft-XFL4020152MEC/C3033018"
+			(at 193.04 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C3033018"
+			(at 193.04 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "basic?" "no"
+			(at 193.04 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "info" "1.5uH"
+			(at 193.04 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "C$1.3436"
+			(at 193.04 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/coilcraft/XFL4020-152MEC/21381168"
 			(at 193.04 350.52 0)
 			(effects
 				(font
@@ -19884,6 +20343,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 528.32 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63e2f6c2-c71d-4639-a7aa-0cbe6af34de3")
 		)
@@ -19926,7 +20394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 386.842 81.28 90)
 			(effects
 				(font
@@ -19953,7 +20421,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25961"
+		(property "LCSC Part #" "C25768"
 			(at 388.62 81.28 0)
 			(effects
 				(font
@@ -19962,7 +20430,7 @@
 				(hide yes)
 			)
 		)
-		(property "basic?" "no"
+		(property "basic?" "yes"
 			(at 388.62 81.28 0)
 			(effects
 				(font
@@ -19980,7 +20448,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" "$0.16"
+		(property "price" "C$0.0007 "
 			(at 388.62 81.28 0)
 			(effects
 				(font
@@ -19989,7 +20457,25 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0603FT22K1/1760764"
+		(property "Digikey Link" ""
+			(at 388.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/26511-0402WGF2202TCE/C25768"
+			(at 388.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 388.62 81.28 0)
 			(effects
 				(font
@@ -20187,6 +20673,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 64.77 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7daab9cb-72b4-4428-b971-4a58c383573e")
 		)
@@ -20302,6 +20797,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
+			(at 369.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 369.57 157.48 0)
 			(effects
 				(font
@@ -20701,6 +21205,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 516.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "596dbcd9-c8e8-42ac-bd5d-70a7c3be4969")
 		)
@@ -20910,7 +21423,16 @@
 				(hide yes)
 			)
 		)
-		(property "max mA" "20mA"
+		(property "Current Draw" "20mA"
+			(at 350.52 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 350.52 231.14 0)
 			(effects
 				(font
@@ -21208,6 +21730,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 364.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "976682e5-93b6-49fd-bb06-a35d80b9808b")
 		)
@@ -21386,6 +21917,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/25933-0603WAF270JT5E/C25190"
+			(at 306.07 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 306.07 196.85 0)
 			(effects
 				(font
@@ -21575,7 +22115,16 @@
 				(hide yes)
 			)
 		)
-		(property "max mA" "Con=10mA, Tra=70mA"
+		(property "Current Draw" "Con=10mA, Tra=70mA"
+			(at 346.71 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 346.71 330.2 0)
 			(effects
 				(font
@@ -21912,6 +22461,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 246.38 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce64ea6d-7f6e-41de-b3d5-c92c3ef8596f")
 		)
@@ -22169,6 +22727,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 438.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "800e0b94-a359-4171-8127-f48d224f13bc")
 		)
@@ -22405,7 +22972,16 @@
 				(hide yes)
 			)
 		)
-		(property "max mA" "0.5 uW 3.3v"
+		(property "Current Draw" "0.5 uW 3.3v"
+			(at 537.21 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 537.21 274.32 0)
 			(effects
 				(font
@@ -23121,6 +23697,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 76.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B9"
 			(uuid "f5e7362d-150a-441b-a975-3a3f02a68a53")
 		)
@@ -23405,7 +23990,16 @@
 				(hide yes)
 			)
 		)
-		(property "max mA" "103uA"
+		(property "Current Draw" "103uA"
+			(at 213.36 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 213.36 340.36 0)
 			(effects
 				(font
@@ -23562,6 +24156,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/1900-0402CG150J500NT/C1548"
+			(at 172.72 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 172.72 259.08 0)
 			(effects
 				(font
@@ -23752,6 +24355,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+			(at 486.41 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 486.41 257.81 0)
 			(effects
 				(font
@@ -24061,6 +24673,15 @@
 			)
 		)
 		(property "price" "C$0.0013 "
+			(at 546.1 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 546.1 284.48 0)
 			(effects
 				(font
@@ -24380,6 +25001,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 478.79 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ba683db-9806-43fc-b57d-c1391bf06606")
 		)
@@ -24675,7 +25305,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" " C$0.0013 "
+		(property "price" "C$0.0013 "
 			(at 196.85 99.06 0)
 			(effects
 				(font
@@ -24694,6 +25324,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/23969-0603WAF7502T5E/C23242"
+			(at 196.85 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" "0603 is only basic 75k"
 			(at 196.85 99.06 0)
 			(effects
 				(font
@@ -24818,6 +25457,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/26643-0402WGF4701TCE/C25900"
+			(at 386.08 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 386.08 187.96 0)
 			(effects
 				(font
@@ -25148,6 +25796,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 256.54 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0464505a-4ab8-4b20-9362-498a1152572c")
 		)
@@ -25395,6 +26052,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446"
+			(at 279.4 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 279.4 339.09 0)
 			(effects
 				(font
@@ -25659,6 +26325,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 474.98 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3aeeef74-e05e-4032-9160-55c19231ab36")
 		)
@@ -25774,6 +26449,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
+			(at 392.43 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 392.43 157.48 0)
 			(effects
 				(font
@@ -26015,7 +26699,16 @@
 				(hide yes)
 			)
 		)
-		(property "max mA" "800uA"
+		(property "Current Draw" "800uA"
+			(at 494.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 494.03 71.12 0)
 			(effects
 				(font
@@ -26160,6 +26853,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 184.15 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "81009a89-f678-46ec-ba10-eb69941174cd")
 		)
@@ -26276,6 +26978,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/13164-CL05A225MQ5NSNC/C12530"
+			(at 328.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 328.93 73.66 0)
 			(effects
 				(font
@@ -26539,6 +27250,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 516.89 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c34f0b5-0c73-4b80-93e0-0cab6f86f8d7")
 		)
@@ -26792,6 +27512,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 205.74 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f84141c3-0246-4487-b389-e3ac8c7bf726")
 		)
@@ -26983,6 +27712,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 398.78 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a70f898f-280a-4174-b09c-98141eb26795")
 		)
@@ -27098,6 +27836,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
+			(at 426.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 426.72 157.48 0)
 			(effects
 				(font
@@ -27294,6 +28041,15 @@
 				(hide yes)
 			)
 		)
+		(property "notes" ""
+			(at 330.2 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e007c7b6-bec6-41a5-a0d2-453868c07a4f")
 		)
@@ -27409,6 +28165,15 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/15869-CL05B103KB5NNNC/C15195"
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
 			(at 180.34 97.79 0)
 			(effects
 				(font

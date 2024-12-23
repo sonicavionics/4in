@@ -531,6 +531,12 @@
         },
         {
           "group_by": false,
+          "label": "notes",
+          "name": "notes",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -567,8 +573,8 @@
         },
         {
           "group_by": false,
-          "label": "max mA",
-          "name": "max mA",
+          "label": "Current Draw",
+          "name": "Current Draw",
           "show": true
         },
         {
@@ -684,7 +690,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": false,
-      "sort_field": "info"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
