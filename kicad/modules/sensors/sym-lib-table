@@ -9,4 +9,6 @@
   (lib (name "2024-12-15_04-37-41")(type "KiCad")(uri "${KIPRJMOD}/library/MCP25625T_E_ML/2024-12-15_04-37-41.kicad_sym")(options "")(descr "CAN Controller/Tranceiver"))
   (lib (name "TPS63070RNMR")(type "KiCad")(uri "${KIPRJMOD}/library/TPS63070RNMR/TPS63070RNMR.kicad_sym")(options "")(descr "5V Buck-Boost"))
   (lib (name "X322516MLB4SI")(type "KiCad")(uri "${KIPRJMOD}/library/X322516MLB4SI/X322516MLB4SI.kicad_sym")(options "")(descr "CAN Crystal"))
+  (lib (name "XFL4020-152MEC")(type "KiCad")(uri "${KIPRJMOD}/library/LIB_XFL4020-152MEC/XFL4020-152MEC/KiCad/XFL4020-152MEC.kicad_sym")(options "")(descr "1.5uH Inductor"))
+  (lib (name "VLS6045EX-6R8M")(type "KiCad")(uri "${KIPRJMOD}/library/VLS6045EX_6R8M/VLS6045EX-6R8M.kicad_sym")(options "")(descr "6.8uH Inductor"))
 )
