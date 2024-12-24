@@ -27,6 +27,11 @@ fp-info-cache
 *-sheet.backup
 *.sch-bak
 
+# KiCad lock files
+*.lck
+
+
+
 # Generated netlists (if you don't want them in VCS)
 *.net
 
