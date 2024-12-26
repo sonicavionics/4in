@@ -11,4 +11,5 @@
   (lib (name "X322516MLB4SI")(type "KiCad")(uri "${KIPRJMOD}/library/X322516MLB4SI/X322516MLB4SI.kicad_sym")(options "")(descr "CAN Crystal"))
   (lib (name "XFL4020-152MEC")(type "KiCad")(uri "${KIPRJMOD}/library/LIB_XFL4020-152MEC/XFL4020-152MEC/KiCad/XFL4020-152MEC.kicad_sym")(options "")(descr "1.5uH Inductor"))
   (lib (name "VLS6045EX-6R8M")(type "KiCad")(uri "${KIPRJMOD}/library/VLS6045EX_6R8M/VLS6045EX-6R8M.kicad_sym")(options "")(descr "6.8uH Inductor"))
+  (lib (name "TS-1187A-B-A-B")(type "KiCad")(uri "${KIPRJMOD}/library/TS-1187A-B-A-B/TS-1187A-B-A-B.kicad_sym")(options "")(descr ""))
 )
