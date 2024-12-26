@@ -30,7 +30,8 @@ fp-info-cache
 # KiCad lock files
 *.lck
 
-
+# KiCad auto save files
+**/#auto_saved_files#
 
 # Generated netlists (if you don't want them in VCS)
 *.net
