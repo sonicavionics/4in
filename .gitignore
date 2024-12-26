@@ -32,6 +32,8 @@ fp-info-cache
 
 # KiCad auto save files
 **/#auto_saved_files#
+**/*autosave*
+
 
 # Generated netlists (if you don't want them in VCS)
 *.net
