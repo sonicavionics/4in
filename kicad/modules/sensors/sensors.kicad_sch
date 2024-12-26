@@ -7291,8 +7291,8 @@
 		(uuid "5e48db63-2f00-408d-99cd-222ac87d2e34")
 	)
 	(no_connect
-		(at 93.98 64.77)
-		(uuid "5fb9fb9c-e1d1-4332-8fe9-6774b5febd39")
+		(at 93.98 62.23)
+		(uuid "63964a64-31ed-49f3-b698-d25780a02db6")
 	)
 	(no_connect
 		(at 58.42 67.31)
@@ -7311,6 +7311,10 @@
 		(uuid "8b0981bb-ff80-4c1a-b4ac-f6c0f007d5a6")
 	)
 	(no_connect
+		(at 93.98 64.77)
+		(uuid "9bd90fcc-8674-42d2-a9aa-02f4eeea95e4")
+	)
+	(no_connect
 		(at 93.98 77.47)
 		(uuid "a537423a-84b4-4b41-b0f5-84964aae4965")
 	)
@@ -7325,6 +7329,10 @@
 	(no_connect
 		(at 93.98 82.55)
 		(uuid "c3736de9-6c8f-4ccc-8bf7-62108f81f4ed")
+	)
+	(no_connect
+		(at 58.42 62.23)
+		(uuid "c8b47677-5be1-4c0e-b03e-4675e52856eb")
 	)
 	(no_connect
 		(at 58.42 77.47)
@@ -10161,28 +10169,6 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape input)
-		(at 58.42 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a0d42dde-0dc8-4bf1-b600-bf4158bcafa0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.5362 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SI"
 		(shape input)
 		(at 378.46 220.98 0)
@@ -10394,28 +10380,6 @@
 		(uuid "ca125fc0-bcec-4a2a-b1e0-ee53bf93c401")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 405.5147 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 93.98 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d6f2f194-aadc-464d-b075-c5e2c768cea8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8638 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
