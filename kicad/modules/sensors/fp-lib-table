@@ -2,7 +2,7 @@
   (version 7)
   (lib (name "BMP388")(type "KiCad")(uri "${KIPRJMOD}/library/BMP388")(options "")(descr "Altimeter"))
   (lib (name "TYPE-C-31-M-04")(type "KiCad")(uri "${KIPRJMOD}/library/TYPE-C-31-M-04")(options "")(descr "USB-C"))
-  (lib (name "ABM8-272-T3")(type "KiCad")(uri "${KIPRJMOD}/library/ABM8-272-T3")(options "")(descr "RP2040 Crystal"))
+  (lib (name "ABM8-272-T3")(type "KiCad")(uri "${KIPRJMOD}/library/ABM8-272-T3/footprints.pretty")(options "")(descr "RP2040 Crystal"))
   (lib (name "pcie_x1_socket")(type "KiCad")(uri "${KIPRJMOD}/library/pcie_x1_socket")(options "")(descr "PCIe X1 Socket"))
   (lib (name "TPS2121RUXR")(type "KiCad")(uri "${KIPRJMOD}/library/TPS2121RUXR")(options "")(descr "Power MUX"))
   (lib (name "ABS07-32.768KHZ-T")(type "KiCad")(uri "${KIPRJMOD}/library/ABS07-32.768KHZ-T")(options "")(descr "IMU Crystal"))
