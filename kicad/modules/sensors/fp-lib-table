@@ -11,4 +11,5 @@
   (lib (name "X322516MLB4SI")(type "KiCad")(uri "${KIPRJMOD}/library/X322516MLB4SI")(options "")(descr "CAN Crystal"))
   (lib (name "1.5uH")(type "KiCad")(uri "${KIPRJMOD}/library/LIB_XFL4020-152MEC/XFL4020-152MEC/KiCad")(options "")(descr "1.5uH"))
   (lib (name "VLS6045EX_6R8M")(type "KiCad")(uri "${KIPRJMOD}/library/VLS6045EX_6R8M")(options "")(descr "6.8uH"))
+  (lib (name "TS-1187A-B-A-B")(type "KiCad")(uri "${KIPRJMOD}/library/TS-1187A-B-A-B")(options "")(descr ""))
 )
