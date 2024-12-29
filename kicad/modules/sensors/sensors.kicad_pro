@@ -533,7 +533,7 @@
           "group_by": false,
           "label": "notes",
           "name": "notes",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
