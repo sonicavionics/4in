@@ -42,8 +42,6 @@
       13,
       15,
       16,
-      17,
-      18,
       19,
       20,
       21,
@@ -65,8 +63,8 @@
       39,
       40
     ],
-    "visible_layers": "7ffffdf_80000001",
-    "zone_display_mode": 1
+    "visible_layers": "7fdffff_80000001",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_password": "",
