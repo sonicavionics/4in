@@ -7259,6 +7259,12 @@
 		(uuid "284bf75a-2032-44f6-bde3-e88ea4aa9ae2")
 	)
 	(junction
+		(at 370.84 347.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b0e4fd8-37a2-4ae4-b5ce-a2d2df46de30")
+	)
+	(junction
 		(at 91.44 300.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7413,6 +7419,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85e894b4-ef64-4c43-9acd-0df8dcbe2023")
+	)
+	(junction
+		(at 347.98 347.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e60b595-ab1c-4e68-b81a-f01ae04c5776")
 	)
 	(junction
 		(at 375.92 114.3)
@@ -9254,6 +9266,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 347.98) (xy 370.84 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd60022-77eb-4322-973f-5cbcd8554d1f")
+	)
+	(wire
+		(pts
 			(xy 468.63 267.97) (xy 468.63 274.32)
 		)
 		(stroke
@@ -9604,6 +9626,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 347.98) (xy 379.73 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc442992-6c21-486a-9d21-0ab8655cf951")
+	)
+	(wire
+		(pts
 			(xy 165.1 250.19) (xy 165.1 259.08)
 		)
 		(stroke
@@ -9704,6 +9736,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 347.98) (xy 356.87 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef70d2ed-8b9f-4c48-babc-bf12d322a861")
+	)
+	(wire
+		(pts
 			(xy 330.2 102.87) (xy 341.63 102.87)
 		)
 		(stroke
@@ -9741,6 +9783,16 @@
 			(type default)
 		)
 		(uuid "f4a89804-946b-43a9-8e85-84f869d4d8ba")
+	)
+	(wire
+		(pts
+			(xy 346.71 347.98) (xy 347.98 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5811569-dcab-4431-97e3-ac35770bb786")
 	)
 	(wire
 		(pts
@@ -10787,7 +10839,7 @@
 	)
 	(global_label "OSC2"
 		(shape input)
-		(at 356.87 347.98 0)
+		(at 379.73 347.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10797,7 +10849,7 @@
 		)
 		(uuid "89ea5441-edff-4e62-b4de-ff3341660747")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 364.8747 347.98 0)
+			(at 387.7347 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12073,7 +12125,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 351.79 355.6 0)
+		(at 361.95 355.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12082,7 +12134,7 @@
 		(fields_autoplaced yes)
 		(uuid "10e2edf1-1195-49f5-9151-56706ddb5be0")
 		(property "Reference" "#PWR080"
-			(at 351.79 361.95 0)
+			(at 361.95 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12091,7 +12143,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 351.79 360.68 0)
+			(at 361.95 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12100,7 +12152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 355.6 0)
+			(at 361.95 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12109,7 +12161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 355.6 0)
+			(at 361.95 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12118,7 +12170,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 351.79 355.6 0)
+			(at 361.95 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13181,6 +13233,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 347.98 355.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "233a850d-3706-4fae-ae02-5e2efa13b32b")
+		(property "Reference" "#PWR032"
+			(at 347.98 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 347.98 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 347.98 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb483aea-4bdb-4071-a977-8ff7c22cddee")
+		)
+		(instances
+			(project "sensors"
+				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 231.14 336.55 0)
 		(unit 1)
@@ -13968,6 +14087,73 @@
 			(project "sensors"
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 370.84 355.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3678ce23-dd29-415f-9382-f8f31989276e")
+		(property "Reference" "#PWR031"
+			(at 370.84 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 370.84 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 370.84 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 370.84 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 370.84 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0edd646d-abdb-4c0d-9fbd-cc88d45bf02f")
+		)
+		(instances
+			(project "sensors"
+				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -16104,6 +16290,175 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 347.98 351.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "567ff1be-30b1-4da7-ab0c-9db1a6b248b6")
+		(property "Reference" "C94"
+			(at 351.79 350.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22p"
+			(at 351.79 353.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 348.9452 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 347.98 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 347.98 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
+			(at 347.98 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "info" "22pF Cap"
+			(at 347.98 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/1907-0402CG220J500NT/C1555"
+			(at 347.98 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1555"
+			(at 347.98 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "basic?" "yes"
+			(at 347.98 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "C$0.0077 "
+			(at 347.98 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 347.98 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 347.98 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 347.98 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 347.98 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 347.98 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d4bbaff-85d5-4a3b-998b-f12f05951907")
+		)
+		(pin "2"
+			(uuid "618727fa-1a8a-458d-af88-baeca067ec81")
+		)
+		(instances
+			(project "sensors"
+				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
+					(reference "C94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 318.77 128.27 0)
 		(unit 1)
@@ -16236,7 +16591,7 @@
 	)
 	(symbol
 		(lib_id "X322516MLB4SI:X322516MLB4SI")
-		(at 351.79 347.98 0)
+		(at 361.95 347.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16245,7 +16600,7 @@
 		(fields_autoplaced yes)
 		(uuid "619affe2-bc8a-411a-938d-4049cd2626f3")
 		(property "Reference" "Y2"
-			(at 351.79 340.36 0)
+			(at 361.95 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16253,7 +16608,7 @@
 			)
 		)
 		(property "Value" "X322516MLB4SI"
-			(at 351.79 342.9 0)
+			(at 361.95 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16261,7 +16616,7 @@
 			)
 		)
 		(property "Footprint" "X322516MLB4SI:OSC_X322516MLB4SI"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16271,7 +16626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16280,7 +16635,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16289,7 +16644,7 @@
 			)
 		)
 		(property "MF" "YXC"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16299,7 +16654,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16309,7 +16664,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16319,7 +16674,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16329,7 +16684,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/X322516MLB4SI/YXC/view-part/?ref=eda"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16339,7 +16694,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16349,7 +16704,7 @@
 			)
 		)
 		(property "PARTREV" "N/A"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16359,7 +16714,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/X322516MLB4SI/YXC/view-part/?ref=snap"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16369,7 +16724,7 @@
 			)
 		)
 		(property "MP" "X322516MLB4SI"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16379,7 +16734,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            External dimensions: 3.2 x 2.5 x 0.8 mm.\nFrequency range: 11.0592MHz ~54MHz\n                        \n"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16389,7 +16744,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16399,7 +16754,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YXC"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16409,7 +16764,7 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/Yxc_CrystalOscillators-X322516MOB4SI/C12668"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16418,7 +16773,7 @@
 			)
 		)
 		(property "LCSC Part #" "C12668"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16427,7 +16782,7 @@
 			)
 		)
 		(property "basic?" "no"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16436,7 +16791,7 @@
 			)
 		)
 		(property "info" "CAN Clock"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16445,7 +16800,7 @@
 			)
 		)
 		(property "price" "C$0.0829"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16454,7 +16809,7 @@
 			)
 		)
 		(property "Current Draw" "200 uW 3.3v"
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16463,7 +16818,7 @@
 			)
 		)
 		(property "notes" ""
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16472,7 +16827,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16481,7 +16836,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16490,7 +16845,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16499,7 +16854,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16508,7 +16863,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 351.79 347.98 0)
+			(at 361.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16993,6 +17348,175 @@
 			(project ""
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 370.84 351.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65bd345a-d8e1-47e6-9bd8-899bb945a947")
+		(property "Reference" "C95"
+			(at 374.65 350.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22p"
+			(at 374.65 353.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 371.8052 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 370.84 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 370.84 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
+			(at 370.84 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "info" "22pF Cap"
+			(at 370.84 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/1907-0402CG220J500NT/C1555"
+			(at 370.84 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1555"
+			(at 370.84 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "basic?" "yes"
+			(at 370.84 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "C$0.0077 "
+			(at 370.84 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 370.84 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 370.84 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 370.84 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 370.84 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 370.84 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad2471b8-6bd9-4bb9-a371-f4ac7e76ca53")
+		)
+		(pin "2"
+			(uuid "ee11de80-8536-4b25-ac16-3351f33360a9")
+		)
+		(instances
+			(project "sensors"
+				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -17747,7 +18271,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" "C$0.0013 "
+		(property "price" "C$0.0077 "
 			(at 502.92 275.59 0)
 			(effects
 				(font
@@ -21996,7 +22520,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" "C$0.0013 "
+		(property "price" "C$0.0077 "
 			(at 502.92 295.91 0)
 			(effects
 				(font
