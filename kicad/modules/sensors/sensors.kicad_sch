@@ -7235,10 +7235,22 @@
 		(uuid "1677f032-4f9e-4c2e-9b2d-28c0b7a7bd82")
 	)
 	(junction
+		(at 91.44 285.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16b5d23b-b305-4f9f-a0cf-a1758c6652e9")
+	)
+	(junction
 		(at 60.96 321.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1758b46e-7a85-4f09-be7c-f651519d2414")
+	)
+	(junction
+		(at 91.44 280.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cfe732c-9cd2-4589-a7d0-8fb87c99abc4")
 	)
 	(junction
 		(at 135.89 143.51)
@@ -7383,6 +7395,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72bebc97-18c3-422e-b614-68261bdbc90e")
+	)
+	(junction
+		(at 91.44 275.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "744045f6-fb6d-41a3-8037-09cdfbe79c03")
 	)
 	(junction
 		(at 307.34 135.89)
@@ -7655,6 +7673,10 @@
 	(no_connect
 		(at 267.97 349.25)
 		(uuid "bfb1d9a2-92ed-4840-9085-27a491cce4f1")
+	)
+	(no_connect
+		(at 60.96 275.59)
+		(uuid "c783d6fc-a026-4f7c-9341-d06569162dbc")
 	)
 	(no_connect
 		(at 325.12 199.39)
@@ -8746,6 +8768,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 280.67) (xy 91.44 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f7c1df-f6e5-4d06-8d53-3f0d96fd2dbc")
+	)
+	(wire
+		(pts
 			(xy 387.35 111.76) (xy 387.35 114.3)
 		)
 		(stroke
@@ -8963,6 +8995,16 @@
 			(type default)
 		)
 		(uuid "8a8ba18f-11ed-4a30-94c7-266356663df3")
+	)
+	(wire
+		(pts
+			(xy 91.44 285.75) (xy 91.44 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c1584c2-1350-4ec0-b5a2-e1ba2bfea8cf")
 	)
 	(wire
 		(pts
@@ -9536,16 +9578,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 285.75) (xy 91.44 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9fd1fcb-4272-4613-91e3-1ad493245a0e")
-	)
-	(wire
-		(pts
 			(xy 485.14 119.38) (xy 485.14 109.22)
 		)
 		(stroke
@@ -9623,6 +9655,16 @@
 			(type default)
 		)
 		(uuid "daacd2b0-fbcb-4de2-924a-593f2463b2e1")
+	)
+	(wire
+		(pts
+			(xy 91.44 270.51) (xy 91.44 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db5f2484-0ad8-44b0-99ed-6107c1c07c59")
 	)
 	(wire
 		(pts
@@ -9733,6 +9775,16 @@
 			(type default)
 		)
 		(uuid "eae28b08-4188-4aef-a1ba-6c05079ca562")
+	)
+	(wire
+		(pts
+			(xy 91.44 275.59) (xy 91.44 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede062c7-1d68-4e52-8a48-02e6c99bef55")
 	)
 	(wire
 		(pts
@@ -10661,28 +10713,6 @@
 			)
 		)
 	)
-	(global_label "CANP"
-		(shape input)
-		(at 91.44 275.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5deff834-8252-4373-8156-1d4565f48317")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.3843 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB_D+"
 		(shape input)
 		(at 132.08 86.36 0)
@@ -11145,28 +11175,6 @@
 			)
 		)
 	)
-	(global_label "CANN"
-		(shape input)
-		(at 91.44 280.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ea478ed5-cafb-45fd-8fa9-6bd63c2c0398")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.4448 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BMPINT"
 		(shape input)
 		(at 327.66 214.63 0)
@@ -11213,7 +11221,7 @@
 	)
 	(global_label "CANP"
 		(shape input)
-		(at 60.96 275.59 180)
+		(at 60.96 270.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11223,7 +11231,7 @@
 		)
 		(uuid "fb2db504-6760-47f0-b5f7-613d12efcdec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.0157 275.59 0)
+			(at 53.0157 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23879,142 +23887,6 @@
 			(project "sensors"
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 60.96 270.51 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd3bd925-f3e3-4167-b73a-6be2451c40e3")
-		(property "Reference" "#PWR02"
-			(at 54.61 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 270.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f8bd3b1-35f5-49ff-8d9e-a454f59a9530")
-		)
-		(instances
-			(project "sensors"
-				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 270.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de80d32b-8841-4438-9bf1-8aebc4522e4f")
-		(property "Reference" "#PWR01"
-			(at 97.79 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 95.25 270.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b070f20d-c6b9-4f96-a0da-32a99f87298f")
-		)
-		(instances
-			(project "sensors"
-				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
