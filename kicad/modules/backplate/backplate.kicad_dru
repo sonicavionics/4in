@@ -47,9 +47,9 @@
 	(condition "A.Type == 'Via'")
   # Choose between:
   # 1-6 Layers
-  # (constraint annular_width (min 0.05mm))
+    (constraint annular_width (min 0.05mm))
   # 1-6 Layers (preferred)
-	(constraint annular_width (min 0.075mm))
+  # (constraint annular_width (min 0.075mm))
 )
 
 (rule "JLCPCB: PTH Hole Size"
@@ -71,7 +71,7 @@
 
 (rule "JLCPCB: PTH Annular Ring"
 	(condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole' && A.isPlated()")
-	(constraint annular_width (min 0.075mm))
+	(constraint annular_width (min 0.05mm))
 )
 
 (rule "JLCPCB: NPTH Annular Ring"
@@ -106,13 +106,13 @@
 
 (rule "JLCPCB: Pad Hole to Pad Hole Clearance (Pad with Hole, Different Nets)"
 	(condition "A.Type == 'Pad' && (A.Pad_Type == 'Through-hole' || A.Pad_Type == 'NPTH, mechanical') && B.Type == 'Pad' && (B.Pad_Type == 'Through-hole' || B.Pad_Type == 'NPTH, mechanical') && A.Net != B.Net")
-	(constraint hole_to_hole (min 0.5mm))
+	(constraint hole_to_hole (min 0.4mm))
 )
 
 # NOTE: This is not stated specifically, but is implied by other rules.
 (rule "JLCPCB: Via/Pad to Via/Pad Clearance (Different Nets)"
 	(condition "(A.Type == 'Pad' || A.Type == 'Via') && (B.Type == 'Pad' || B.Type == 'Via') && A.Net != B.Net")
-	(constraint clearance (min 0.127mm))
+	(constraint clearance (min 0.1mm))
 )
 
 # NOTE: This is not stated specifically, but is implied by other rules.
