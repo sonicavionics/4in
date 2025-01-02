@@ -1,0 +1,43 @@
+name: Restrict Changes to /kicad/modules/<branch_name>/
+
+on:
+  pull_request:
+    branches:
+      - main
+      
+jobs:
+  check-folder:
+    runs-on: ubuntu-latest
+			  		
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: Get changed files
+        id: diff
+        run: |
+          # Use the PR base and head SHA to list changed files
+          echo "CHANGED_FILES=$(git diff --name-only \
+            ${{ github.event.pull_request.base.sha }} \
+            ${{ github.event.pull_request.head.sha }})" >> $GITHUB_ENV
+
+      - name: Validate changes
+        run: |
+          # The name of the PR’s branch is accessible via github.head_ref or github.event.pull_request.head.ref
+          BRANCH_NAME="${{ github.event.pull_request.head.ref }}"
+          echo "Branch Name = ${BRANCH_NAME}"
+
+          echo "Changed files:"
+          echo "${CHANGED_FILES}"
+
+          # Loop through each changed file
+          for file in $CHANGED_FILES; do
+            # If the file is *not* within kicad/modules/<branch_name>/, fail
+            if [[ "$file" != "kicad/modules/${BRANCH_NAME}/"* ]]; then
+              echo "Unauthorized change detected: $file"
+              echo "All changed files must be in kicad/modules/${BRANCH_NAME}/"
+              exit 1
+            fi
+          done
+
+          echo "All changed files are within kicad/modules/${BRANCH_NAME}/. ✓"
