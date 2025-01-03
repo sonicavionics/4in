@@ -3808,7 +3808,7 @@
 		(uuid "93fce191-b1d0-4aa7-a286-63272b9f2e00")
 	)
 	(gr_text "backplate 0.1.0"
-		(at 130 148 0)
+		(at 129.757105 92.989552 0)
 		(layer "F.SilkS")
 		(uuid "48cf04bb-e6cd-4811-a941-5f8d3c380395")
 		(effects
