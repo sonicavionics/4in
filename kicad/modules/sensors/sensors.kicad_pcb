@@ -1445,81 +1445,6 @@
 			)
 		)
 	)
-	(footprint ""
-		(layer "F.Cu")
-		(uuid "089bec8a-68e3-4366-ae92-50af1b67d531")
-		(at 145.82163 98.314104)
-		(property "Reference" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "a0c441fc-f0d0-4fcf-8427-065dc95caf5a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "09759644-e8a2-47f6-a708-d701026595c6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "15304713-dfb1-4d96-9b9e-c130dc740a40")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "26024d04-8d2d-437a-8b7c-92e5779f8cd6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cf471136-d396-4781-b1f1-6bc895eb6bd9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "57" thru_hole circle
-			(at 0 0)
-			(size 0.6 0.6)
-			(drill 0.35)
-			(layers "*.Cu")
-			(remove_unused_layers no)
-			(net 26 "GND")
-			(pinfunction "GND")
-			(pintype "power_in")
-			(zone_connect 2)
-			(uuid "f571643c-b7f3-4dbf-89da-d4d8c584335f")
-		)
-	)
 	(footprint "BMP388:PQFN50P200X200X80-10N"
 		(layer "F.Cu")
 		(uuid "09df7e49-2a82-425b-80c6-2ec9eddbb99d")
@@ -10749,81 +10674,6 @@
 			)
 		)
 	)
-	(footprint ""
-		(layer "F.Cu")
-		(uuid "5b74fa1d-a14f-4af4-b60e-5198bf5798fc")
-		(at 148.37163 98.314104)
-		(property "Reference" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "7b9d52f6-a4a2-4093-88de-236f154d4429")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "f20cc861-3185-454c-8519-7eeb0ba1ce6c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "303ade33-99fd-498d-a695-f28a0cac72e3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0fc91ea3-9f1d-4bce-9d97-34c322376bb1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "41130c28-4ca5-4b6b-b9ed-c389f30ab311")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "57" thru_hole circle
-			(at 0 0)
-			(size 0.6 0.6)
-			(drill 0.35)
-			(layers "*.Cu")
-			(remove_unused_layers no)
-			(net 26 "GND")
-			(pinfunction "GND")
-			(pintype "power_in")
-			(zone_connect 2)
-			(uuid "cac81b58-8339-4b71-b1db-50f6cf2261b2")
-		)
-	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "6a439d25-0e90-4b12-9368-c70e67d605ad")
@@ -14397,81 +14247,6 @@
 			)
 		)
 	)
-	(footprint ""
-		(layer "F.Cu")
-		(uuid "9036c221-45bb-4de7-a2e5-ae0812858cf9")
-		(at 145.82163 99.589104)
-		(property "Reference" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "37f2a378-d5b9-4cee-a926-a2cfd4599a4e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "9d2fd7c3-0f72-4e7a-a69b-915b2796f788")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "63bd27dc-1df2-4a90-aa6b-35485ad5fbb6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b6c0dac1-a271-4e27-92d0-c7fc5fbe8d6d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5952c263-5960-4aee-9a2c-bb2fbfdac175")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "57" thru_hole circle
-			(at 0 0)
-			(size 0.6 0.6)
-			(drill 0.35)
-			(layers "*.Cu")
-			(remove_unused_layers no)
-			(net 26 "GND")
-			(pinfunction "GND")
-			(pintype "power_in")
-			(zone_connect 2)
-			(uuid "0db54828-1681-41b4-ac8b-7056ca95423e")
-		)
-	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "997c4288-ff65-43d7-a7a1-3130c4ce9396")
@@ -14829,81 +14604,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint ""
-		(layer "F.Cu")
-		(uuid "9c086323-3523-44ae-8dc4-f5a349b3b91b")
-		(at 147.09663 98.314104)
-		(property "Reference" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "7ff94d6a-e814-4ae4-ad9f-8c04b893566a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "38bd2ec5-3fff-498f-8259-ad6deda986e5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f864a467-1d5b-41df-83fc-39323f0833e6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "da2ca619-da85-411a-9294-7f6522c7f388")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f19890fe-3c3d-4b18-afc3-f6282cbea8c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "57" thru_hole circle
-			(at 0 0)
-			(size 0.6 0.6)
-			(drill 0.35)
-			(layers "*.Cu")
-			(remove_unused_layers no)
-			(net 26 "GND")
-			(pinfunction "GND")
-			(pintype "power_in")
-			(zone_connect 2)
-			(uuid "00976fb7-59e2-4f25-b579-16523fab2c0b")
 		)
 	)
 	(footprint "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm"
@@ -17226,156 +16926,6 @@
 			)
 		)
 	)
-	(footprint ""
-		(layer "F.Cu")
-		(uuid "a4fa91be-8251-4edc-a8cc-c35ea1763bed")
-		(at 147.09663 99.589104)
-		(property "Reference" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "372725a8-035a-4ab9-898d-615dc37e4984")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "3e2c0f7d-27ed-4a90-aea9-55dea2d1e956")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9073bcac-b553-427a-a4c1-55f24abed66e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "639a8518-c46e-407a-9977-9b50572dd50f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "61509198-c86a-4e1c-a26f-df9b62bee435")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "57" thru_hole circle
-			(at 0 0)
-			(size 0.6 0.6)
-			(drill 0.35)
-			(layers "*.Cu")
-			(remove_unused_layers no)
-			(net 26 "GND")
-			(pinfunction "GND")
-			(pintype "power_in")
-			(zone_connect 2)
-			(uuid "8b1da22a-ce61-4de6-b3b9-f6029b61cbec")
-		)
-	)
-	(footprint ""
-		(layer "F.Cu")
-		(uuid "a5eabf72-3b95-4400-94bf-fa45c06ba03f")
-		(at 147.09663 97.039104)
-		(property "Reference" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "b7428290-8e8d-4b15-94c2-7a3faa418e26")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "a8a7508f-7d01-4ffb-b144-47a042ae0c57")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a89f00d-7d2d-4e70-90f8-1a5f33fc4629")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b426eb08-3f13-411a-8686-b1c6399a00ed")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "340b1640-3d06-42e5-a7c6-70d29d2ee088")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "57" thru_hole circle
-			(at 0 0)
-			(size 0.6 0.6)
-			(drill 0.35)
-			(layers "*.Cu")
-			(remove_unused_layers no)
-			(net 26 "GND")
-			(pinfunction "GND")
-			(pintype "power_in")
-			(zone_connect 2)
-			(uuid "f9431922-5e12-400c-9c5d-4351ef768a30")
-		)
-	)
 	(footprint "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
 		(layer "F.Cu")
 		(uuid "a9bd8d5a-d9e4-41d0-9192-fc2d6a811101")
@@ -18456,81 +18006,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint ""
-		(layer "F.Cu")
-		(uuid "abafb64c-9496-4fbe-91ef-ad813aff1cf2")
-		(at 148.37163 99.589104)
-		(property "Reference" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "2558785e-e2da-4495-b3bd-5bb837edaf3f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "aff7d88c-5841-45e4-8f2f-ab988780d424")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "817c7cf4-bd41-44b2-a0c9-10e622e14f59")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c308724c-844f-469f-abf4-a447b83130c4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f12c4e24-a1ec-4649-a0c1-1ac8ad09e3a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "57" thru_hole circle
-			(at 0 0)
-			(size 0.6 0.6)
-			(drill 0.35)
-			(layers "*.Cu")
-			(remove_unused_layers no)
-			(net 26 "GND")
-			(pinfunction "GND")
-			(pintype "power_in")
-			(zone_connect 2)
-			(uuid "36faf120-3281-49b5-a7c8-f3542afb7f14")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
@@ -20021,81 +19496,6 @@
 			)
 		)
 	)
-	(footprint ""
-		(layer "F.Cu")
-		(uuid "cfe41f17-e0cb-48e7-9438-0ac63928170b")
-		(at 148.37163 97.039104)
-		(property "Reference" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "047493d5-9328-4d58-b7d6-e0982421c438")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "34f1d576-f24e-4ba7-aca4-e9b252f21369")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "47ec0c65-2677-4dca-9164-e988031c8b34")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2792d67b-4e6e-4502-b3e3-1841b1bb6ede")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "accc929a-fa02-48be-a55f-b43305a53da3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "57" thru_hole circle
-			(at 0 0)
-			(size 0.6 0.6)
-			(drill 0.35)
-			(layers "*.Cu")
-			(remove_unused_layers no)
-			(net 26 "GND")
-			(pinfunction "GND")
-			(pintype "power_in")
-			(zone_connect 2)
-			(uuid "acb6270c-d793-42a6-bdb8-8066da8886e3")
-		)
-	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d15be363-e44b-4dbf-9477-de6e09c7ebda")
@@ -20520,81 +19920,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint ""
-		(layer "F.Cu")
-		(uuid "e1c8cba7-99eb-461c-80fb-8d3bf1027a87")
-		(at 145.82163 97.039104)
-		(property "Reference" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "0386b60b-64c3-4e7c-baae-a9502de42290")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "ec708006-c5b0-420e-85c5-5b3d4cb6b876")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d627748e-c381-4901-8cab-458b204cdf2d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7722e843-3ac8-4ace-9832-ff6e6fb789d8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a3dde040-2d9d-42e8-96ad-df84d0534e4f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "57" thru_hole circle
-			(at 0 0)
-			(size 0.6 0.6)
-			(drill 0.35)
-			(layers "*.Cu")
-			(remove_unused_layers no)
-			(net 26 "GND")
-			(pinfunction "GND")
-			(pintype "power_in")
-			(zone_connect 2)
-			(uuid "1b2a0285-c76f-4e0a-97d3-c5cd4d5783d0")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
@@ -24146,6 +23471,7 @@
 		)
 	)
 	(footprint "Connector_PCBEdge:BUS_PCIexpress_x1"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "32c0137c-b9cc-440b-bd3e-524385941100")
 		(at 136.913 64.138595)
@@ -25079,7 +24405,6 @@
 		(start 162.116585 64.587705)
 		(mid 177.157159 77.991829)
 		(end 182.743305 97.348595)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -25090,7 +24415,6 @@
 	(gr_line
 		(start 115.32661 122.418595)
 		(end 115.32661 110.581404)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -25102,7 +24426,6 @@
 		(start 162.116585 64.587705)
 		(mid 160.874576 63.480844)
 		(end 160.413305 61.882429)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -25114,7 +24437,6 @@
 		(pts
 			(xy 115.32661 110.581404) (xy 115.32661 105.83727) (xy 110.083305 102.092729) (xy 110.083305 97.348595)
 		)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -25125,7 +24447,6 @@
 	(gr_line
 		(start 177.5 122.418595)
 		(end 177.5 110.581404)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -25148,7 +24469,6 @@
 		(start 110.083305 97.348595)
 		(mid 115.669451 77.99183)
 		(end 130.710025 64.587705)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -25160,7 +24480,6 @@
 		(start 132.413305 61.882429)
 		(mid 131.952008 63.480827)
 		(end 130.710025 64.587705)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -25171,7 +24490,6 @@
 	(gr_line
 		(start 160.413305 61.882429)
 		(end 160.413305 55.688595)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -25182,7 +24500,6 @@
 	(gr_line
 		(start 132.413305 55.688595)
 		(end 132.413305 61.882429)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -25268,7 +24585,6 @@
 	(gr_line
 		(start 132.413305 55.688595)
 		(end 160.413305 55.688595)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -25280,7 +24596,6 @@
 		(pts
 			(xy 177.5 110.581404) (xy 177.5 105.83727) (xy 182.743305 102.092729) (xy 182.743305 97.348595)
 		)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
